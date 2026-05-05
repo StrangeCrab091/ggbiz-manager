@@ -1,0 +1,23 @@
+========== KIEM TRA KET NOI GOOGLE BUSINESS API ==========
+[STEP 1] Ket noi MongoDB...
+  -> MongoDB OK
+  -> Tokens tim thay trong DB
+  -> Access Token (dau): ya29.a0ATkoCc4S...
+  -> Refresh Token co: true
+  -> Expiry date: 2026-03-17T02:44:15.129Z
+  -> Da het han: CHUA
+
+[STEP 2] Goi Account Management API...
+  -> LOI! Status: 429
+  -> Message: Quota exceeded for quota metric 'Requests' and limit 'Requests per minute' of service 'mybusinessaccountmanagement.googleapis.com' for consumer 'project_number:477136641409'.
+  -> Details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Requests' and limit 'Requests per minute' of service 'mybusinessaccountmanagement.googleapis.com' for consumer 'project_number:477136641409'.","errors":[{"message":"Quota exceeded for quota metric 'Requests' and limit 'Requests per minute' of service 'mybusinessaccountmanagement.googleapis.com' for consumer 'project_number:477136641409'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/min/{project}","service":"mybusinessaccountmanagement.googleapis.com","consumer":"projects/477136641409","quota_metric":"mybusinessaccountmanagement.googleapis.com/default_requests","quota_location":"global","quota_limit_value":"0","quota_limit":"DefaultRequestsPerMinutePerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+
+[STEP 4] Kiem tra Location trong MongoDB...
+  -> Co 5 chi nhanh trong DB:
+  -> 1. [locations/12350852608214864954] - "Công ty Mắt Bão chi nhánh Hà Nội"
+  -> 2. [locations/12685748257313196631] - "Công ty Cổ phần Mắt Bão"
+  -> 3. [locations/17220004812936389247] - "Matbao-invoice"
+  -> 4. [mock_loc_001] - "Chi nhánh Demo (Test)"
+  -> 5. [mock_loc_002] - "Cửa hàng trung tâm"
+
+========== HOAN TAT ==========

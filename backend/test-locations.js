@@ -1,0 +1,1 @@
+﻿const dotenv = require('dotenv'); dotenv.config(); const mongoose = require('mongoose'); const { getLocations } = require('./src/services/googleBusiness.service'); mongoose.connect(process.env.MONGODB_URI).then(async () => { try { const locs = await getLocations(); console.log(JSON.stringify(locs, null, 2)); } catch(e) { console.error('ERROR', e); } process.exit(0); });

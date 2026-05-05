@@ -1,0 +1,1 @@
+﻿const dotenv = require('dotenv'); dotenv.config(); const { searchCompetitorReviews } = require('./src/services/competitor.service'); searchCompetitorReviews('https://maps.app.goo.gl/hA81xH1V4j5yvYp29').then(r => console.log(JSON.stringify(r, null, 2))).catch(e => console.error(e));

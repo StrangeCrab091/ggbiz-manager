@@ -1,0 +1,44 @@
+# Dependencies
+**/node_modules/
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environments — KHÔNG bao giờ commit các file này lên GitHub
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+backend/.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Debug / temp files
+dbg.txt
+err.json
+err2.json
+err3.json
+*.log
+out.txt
+out-stream.txt
+
+# Build Artifacts
+dist/
+build/
+.next/
+out/
+
+# Gemini/Antigravity logs
+.gemini/
+.agent/
+.agents/
+
+# Backup folders
+backup_before_major_update/
+_backup/
+!**/src/**/
+!**/public/**/
+

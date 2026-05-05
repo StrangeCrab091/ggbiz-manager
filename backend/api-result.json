@@ -1,0 +1,31 @@
+{
+  "step1_mongo": "OK",
+  "step1_hasTokens": true,
+  "step1_hasRefreshToken": true,
+  "step1_expiryDate": "2026-03-17T02:44:15.129Z",
+  "step1_isExpired": false,
+  "step2_status": 429,
+  "step2_errorCode": "RESOURCE_EXHAUSTED",
+  "step4_dbLocations": [
+    {
+      "locationId": "locations/12350852608214864954",
+      "title": "Công ty Mắt Bão chi nhánh Hà Nội"
+    },
+    {
+      "locationId": "locations/12685748257313196631",
+      "title": "Công ty Cổ phần Mắt Bão"
+    },
+    {
+      "locationId": "locations/17220004812936389247",
+      "title": "Matbao-invoice"
+    },
+    {
+      "locationId": "mock_loc_001",
+      "title": "Chi nhánh Demo (Test)"
+    },
+    {
+      "locationId": "mock_loc_002",
+      "title": "Cửa hàng trung tâm"
+    }
+  ]
+}
